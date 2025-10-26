@@ -11,17 +11,17 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "SaciGov",
-      description: "Sistema Web, Backend, API e Frontend.",
+      title: "WaveCode (Loading...)",
+      description: "Aplicativo mobile em desenvolvimento que vai unir a comunidade do Surf!",
       imgUrl: projImg1,
     },
     {
-      title: "ROLL!",
-      description: "Aplicativo para encontros e ou eventos de carros.",
+      title: "ROLL! (Loading...)",
+      description: "Aplicativo para encontrinhos e eventos de carros.",
       imgUrl: projImg2,
     },
     {
-      title: "Ideia de Projeto",
+      title: "Automações com IA",
       description: "Design e Desenvolvimento",
       imgUrl: projImg3,
     },

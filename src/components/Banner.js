@@ -15,7 +15,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem vindo ao meu portfólio!</span>
-                <h1 className="blink-text">Olá! Eu me chamo Thales, Desenvolvedor Web e Mobile.</h1>
+                <h1 className="blink-text">Olá! Eu me chamo Thales, Desenvolvedor Web, Mobile e Design.</h1>
                 <p>Aqui apresento alguns dos meus principais projetos e competências adquiridos ao longo de 4 anos de experiência com Desenvolvimento Web, utilizando C# e .NET Core 8.</p>
                 <button onClick={() => console.log('connect')}>Vamos nos conectar? <ArrowRightCircle size={25} /></button>
               </div>}
