@@ -1,26 +1,56 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ver mais em https://help.github.com/articles/ignoring-files/
 
-# dependencies
+# Dependências
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testes
 /coverage
 
-# production
+# Produção
 /build
 
-# misc
+# Configurações locais e de ambiente
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
 
-# environment variables
-.env
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache e temporários
+*.log
+*.cache
+*.tmp
+*.bak
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Outras pastas de build ou configs
+/.eslintcache
+/.parcel-cache
+/.turbo
+/.next
+out/
+dist/
